@@ -1,0 +1,19 @@
+// Demographics Program by Dannicah Montano
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string studentID = "202310001";
+        string fullName = "John Michael Reyes", nickName = "Mike", gender = "Male";
+        string yrLevel = "3rd Year", homeLoc = "123 St. Greenfield, Metro City";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNo = "+639123456789", personalEmail = "mike.reyes@example.com";
+       
+        Console.WriteLine ("Student ID \t\t: "+studentID+"\nFull Name \t\t: "+fullName+"\nNick Name \t\t: "+nickName);
+        Console.WriteLine ("Gender \t\t\t: "+gender+"\nYear Level \t\t: "+yrLevel+"\nHome Location \t: "+homeLoc);
+        Console.WriteLine ("Course \t\t\t: "+course+"\nMobile No. \t\t: "+mobileNo+"\nPersonal Email \t: "+personalEmail);
+    }
+}
